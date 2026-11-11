@@ -8,6 +8,7 @@
     "build": "tsc --noEmit && vite build",
     "build:data": "tsx scripts/build-data.ts",
     "brands": "tsx scripts/update-brands.ts",
+    "brands:seed": "tsx scripts/seed-brands.ts",
     "test": "vitest run",
     "e2e": "playwright test"
   },

@@ -11,7 +11,7 @@ export function normalizeName(s: string): string {
 
 export function displayCity(s: string): string {
   const t = s.trim();
-  if (t !== t.toUpperCase()) return t;
+  if (/[a-zß-ÿ]{2}/.test(t)) return t; // déjà en casse mixte (les « èS » isolés d'un texte en majuscules ne comptent pas)
   return t.toLowerCase().replace(/(^|[\s\-'’])(\p{L})/gu, (_, a, b) => a + b.toUpperCase())
     .replace(/\b(Le|La|Les|De|Du|Des|Sur|Sous|En|Et|Aux?|L|D)\b(?!$)/g, (m, _x, off) => (off === 0 ? m : m.toLowerCase()));
 }
