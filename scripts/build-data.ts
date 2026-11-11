@@ -1,7 +1,7 @@
 import { existsSync, mkdirSync, readFileSync, writeFileSync } from 'node:fs';
 import { decodeXml, parseFeed, unzipFeed, type Station } from './parse';
 
-const URL_FEED = 'https://donnees.roulez-eco.fr/opendata/instantane';
+const URL_FEED = process.env.FEED_URL || 'https://donnees.roulez-eco.fr/opendata/instantane';
 const OUT = 'public/data';
 const MIN_STATIONS = 5000;
 
