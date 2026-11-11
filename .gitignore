@@ -1,0 +1,9 @@
+node_modules
+dist
+.DS_Store
+public/data/stations.json
+public/data/meta.json
+public/data/villes.json
+.cache
+test-results
+playwright-report
