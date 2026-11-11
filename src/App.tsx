@@ -31,6 +31,21 @@ export function App() {
   const [userPos, setUserPos] = useState<{ lat: number; lng: number } | null>(null);
   const [toast, setToast] = useState<string | null>(null);
   const [, setTick] = useState(0);
+  const [online, setOnline] = useState(() => navigator.onLine);
+
+  useEffect(() => {
+    const on = () => {
+      setOnline(true);
+      setTick((t) => t + 1);
+    };
+    const off = () => setOnline(false);
+    window.addEventListener('online', on);
+    window.addEventListener('offline', off);
+    return () => {
+      window.removeEventListener('online', on);
+      window.removeEventListener('offline', off);
+    };
+  }, []);
 
   const load = useCallback(async () => {
     setLoading(true);
@@ -247,7 +262,13 @@ export function App() {
         emptyMessage={restricted ? 'Aucune station dans cette fourchette de prix.' : 'Aucune station avec ce carburant dans la zone.'}
         footer={
           <>
-            <span>{meta ? `Prix mis à jour ${formatAgeMs(meta.asOf)}` : 'Prix : chargement…'}</span>
+            <span>
+              {!meta
+                ? 'Prix : chargement…'
+                : online
+                  ? `Prix mis à jour ${formatAgeMs(meta.asOf)}`
+                  : `Hors ligne · prix du ${new Date(meta.asOf).toLocaleString('fr-FR', { day: 'numeric', month: 'long', hour: '2-digit', minute: '2-digit' })}`}
+            </span>
             <span>
               Source : <a href="https://www.prix-carburants.gouv.fr/rubrique/opendata/">prix-carburants.gouv.fr</a>, Licence Ouverte 2.0 · Enseignes : ©{' '}
               <a href="https://www.openstreetmap.org/copyright">contributeurs OpenStreetMap</a>
