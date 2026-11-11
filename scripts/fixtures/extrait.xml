@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<pdv_liste>
+<pdv id="27340001" latitude="4930163.7" longitude="116555.4" cp="27340" pop="R">
+    <adresse>75 Avenue Forêt de Bord</adresse>
+    <ville>Les Damps</ville>
+    <horaires automate-24-24="1">
+      <jour id="1" nom="Lundi" ferme="">
+        <horaire ouverture="00.00" fermeture="23.59"/>
+      </jour>
+      <jour id="2" nom="Mardi" ferme="">
+        <horaire ouverture="00.00" fermeture="23.59"/>
+      </jour>
+      <jour id="3" nom="Mercredi" ferme="">
+        <horaire ouverture="00.00" fermeture="23.59"/>
+      </jour>
+      <jour id="4" nom="Jeudi" ferme="">
+        <horaire ouverture="00.00" fermeture="23.59"/>
+      </jour>
+      <jour id="5" nom="Vendredi" ferme="">
+        <horaire ouverture="00.00" fermeture="23.59"/>
+      </jour>
+      <jour id="6" nom="Samedi" ferme="">
+        <horaire ouverture="00.00" fermeture="23.59"/>
+      </jour>
+      <jour id="7" nom="Dimanche" ferme="">
+        <horaire ouverture="00.00" fermeture="23.59"/>
+      </jour>
+    </horaires>
+    <services>
+      <service>Automate CB 24/24</service>
+      <service>Lavage automatique</service>
+      <service>Relais colis</service>
+      <service>Vente de gaz domestique (Butane, Propane)</service>
+    </services>
+    <prix nom="Gazole" id="1" maj="2026-11-06 01:00:00" valeur="2.099"/>
+    <prix nom="E85" id="3" maj="2026-10-07 01:00:00" valeur="0.909"/>
+    <prix nom="E10" id="5" maj="2026-11-06 01:00:00" valeur="1.959"/>
+    <prix nom="SP98" id="6" maj="2026-11-04 01:00:00" valeur="2.099"/>
+  </pdv>
+<pdv id="33114001" latitude="4462300" longitude="-78700" cp="33114" pop="R">
+    <adresse>Avenue du Médoc ZAC Eyrialis</adresse>
+    <ville>LE BARP</ville>
+    <horaires automate-24-24="">
+      <jour id="1" nom="Lundi" ferme="1">
+        <horaire ouverture="01.00" fermeture="01.00"/>
+      </jour>
+      <jour id="2" nom="Mardi" ferme="1">
+        <horaire ouverture="01.00" fermeture="01.00"/>
+      </jour>
+      <jour id="3" nom="Mercredi" ferme="1">
+        <horaire ouverture="01.00" fermeture="01.00"/>
+      </jour>
+      <jour id="4" nom="Jeudi" ferme="1">
+        <horaire ouverture="01.00" fermeture="01.00"/>
+      </jour>
+      <jour id="5" nom="Vendredi" ferme="1">
+        <horaire ouverture="01.00" fermeture="01.00"/>
+      </jour>
+      <jour id="6" nom="Samedi" ferme="1">
+        <horaire ouverture="01.00" fermeture="01.00"/>
+      </jour>
+      <jour id="7" nom="Dimanche" ferme="1">
+        <horaire ouverture="01.00" fermeture="01.00"/>
+      </jour>
+    </horaires>
+    <services>
+      <service>Boutique alimentaire</service>
+      <service>Vente de gaz domestique (Butane, Propane)</service>
+      <service>Vente de pétrole lampant</service>
+      <service>Lavage automatique</service>
+      <service>Lavage manuel</service>
+      <service>Station de gonflage</service>
+      <service>Location de véhicule</service>
+      <service>Laverie</service>
+      <service>Boutique non alimentaire</service>
+      <service>Relais colis</service>
+      <service>Restauration à emporter</service>
+      <service>Restauration sur place</service>
+      <service>Services réparation / entretien</service>
+      <service>Vente d'additifs carburants</service>
+      <service>Wifi</service>
+    </services>
+    <prix nom="Gazole" id="1" maj="2026-11-06 09:40:34" valeur="2.199"/>
+    <prix nom="E10" id="5" maj="2026-11-10 05:41:47" valeur="1.999"/>
+    <prix nom="SP98" id="6" maj="2026-11-10 05:41:47" valeur="2.169"/>
+  </pdv>
+<pdv id="34150003" latitude="4365100" longitude="354700" cp="34150" pop="R">
+    <adresse>Route de Pézenas</adresse>
+    <ville>GIGNAC</ville>
+    <horaires automate-24-24="1">
+      <jour id="1" nom="Lundi" ferme="1">
+        <horaire ouverture="01.00" fermeture="01.00"/>
+      </jour>
+      <jour id="2" nom="Mardi" ferme=""/>
+      <jour id="3" nom="Mercredi" ferme=""/>
+      <jour id="4" nom="Jeudi" ferme=""/>
+      <jour id="5" nom="Vendredi" ferme=""/>
+      <jour id="6" nom="Samedi" ferme=""/>
+      <jour id="7" nom="Dimanche" ferme=""/>
+    </horaires>
+    <services>
+      <service>Bar</service>
+      <service>Boutique alimentaire</service>
+      <service>Lavage automatique</service>
+      <service>Location de véhicule</service>
+      <service>Piste poids lourds</service>
+      <service>Station de gonflage</service>
+      <service>Automate CB 24/24</service>
+      <service>DAB (Distributeur automatique de billets)</service>
+      <service>Vente de gaz domestique (Butane, Propane)</service>
+      <service>Lavage manuel</service>
+    </services>
+    <prix nom="Gazole" id="1" maj="2026-11-10 08:30:00" valeur="2.121"/>
+    <prix nom="E85" id="3" maj="2026-09-30 09:01:34" valeur="0.869"/>
+    <prix nom="E10" id="5" maj="2026-11-10 08:30:00" valeur="1.941"/>
+    <prix nom="SP98" id="6" maj="2026-11-10 08:29:00" valeur="2.061"/>
+  </pdv>
+<pdv id="20137007" latitude="4160200" longitude="927600" cp="20137" pop="R">
+    <adresse>Station TOTAL - Quartier La Poretta</adresse>
+    <ville>PORTO-VECCHIO</ville>
+    <horaires automate-24-24="1">
+      <jour id="1" nom="Lundi" ferme="">
+        <horaire ouverture="07.00" fermeture="19.30"/>
+      </jour>
+      <jour id="2" nom="Mardi" ferme="">
+        <horaire ouverture="07.00" fermeture="19.30"/>
+      </jour>
+      <jour id="3" nom="Mercredi" ferme="">
+        <horaire ouverture="07.00" fermeture="19.30"/>
+      </jour>
+      <jour id="4" nom="Jeudi" ferme="">
+        <horaire ouverture="07.00" fermeture="19.30"/>
+      </jour>
+      <jour id="5" nom="Vendredi" ferme="">
+        <horaire ouverture="07.00" fermeture="19.30"/>
+      </jour>
+      <jour id="6" nom="Samedi" ferme="">
+        <horaire ouverture="07.00" fermeture="19.30"/>
+      </jour>
+      <jour id="7" nom="Dimanche" ferme="1"/>
+    </horaires>
+    <services>
+      <service>Toilettes publiques</service>
+      <service>Boutique non alimentaire</service>
+      <service>Vente de gaz domestique (Butane, Propane)</service>
+      <service>Lavage automatique</service>
+      <service>Station de gonflage</service>
+      <service>Services réparation / entretien</service>
+      <service>Automate CB 24/24</service>
+      <service>Vente d'additifs carburants</service>
+      <service>Vente de fioul domestique</service>
+    </services>
+    <prix nom="Gazole" id="1" maj="2026-07-28 06:28:12" valeur="2.240"/>
+    <prix nom="SP95" id="2" maj="2026-07-10 19:40:00" valeur="1.990"/>
+  </pdv>
+</pdv_liste>
